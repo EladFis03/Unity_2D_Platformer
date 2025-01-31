@@ -1,0 +1,50 @@
+# Unity Git Ignore File
+# Ignore Library folder (Unity cache)
+Library/
+Temp/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Ignore build folders
+Builds/
+Build/
+ExportedProject/
+
+# Ignore auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.svd
+*.pidb
+*.booproj
+*.ilk
+*.ipch
+*.obj
+*.pdb
+*.swp
+*.lock
+*.log
+*.bak
+*.orig
+
+# Ignore Unity Package Cache
+Library/PackageCache/
+
+# Ignore Unity Burst Compiler Cache
+Library/PackageCache/com.unity.burst/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore JetBrains Rider IDE files
+.idea/
+
+# Ignore Visual Studio Code workspace files
+.vscode/
