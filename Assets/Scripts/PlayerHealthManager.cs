@@ -3,8 +3,14 @@ using UnityEngine;
 
 public class PlayerHealthManager : MonoBehaviour
 {
-    
+
     public static PlayerHealthManager instance; // Singleton instance of PlayerHealthManager
+
+    
+    public int currentHealth;
+    [Range(1, 10)]
+    public int maxHealth; // Current and maximum health of the player
+    public float invincibilityDuration = 2f; // Duration of invincibility after taking damage
 
 
     private void Awake()
@@ -14,20 +20,23 @@ public class PlayerHealthManager : MonoBehaviour
     }
 
 
-
-    public int currentHealth, maxHealth; // Current and maximum health of the player
-    public float invincibilityDuration = 2f; // Duration of invincibility after taking damage
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currentHealth = maxHealth; // Initialize current health to maximum health
+
+        UIManager.instance.SetMaxHealth(maxHealth); // Set the maximum health in the UI
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public int GetMaxHealth()
+    {
+        return maxHealth; // Return the maximum health of the player
     }
 
     public void IncreaseHealth()
@@ -37,7 +46,11 @@ public class PlayerHealthManager : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
+
+        UIManager.instance.UpdateHealthDisplay(currentHealth, maxHealth); // Update the health display in the UI
     }
+
+
     public void DecreaseHealth()
     {
         currentHealth--; // Decrease current health by the specified amount
@@ -50,5 +63,7 @@ public class PlayerHealthManager : MonoBehaviour
             // This is for now, until we add checkpoints and respawn logic
             //TODO: Add player death handling logic here
         }
+
+        UIManager.instance.UpdateHealthDisplay(currentHealth, maxHealth); // Update the health display in the UI
     }
 }
