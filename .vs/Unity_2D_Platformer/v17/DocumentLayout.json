@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\healthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\healthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\fullhealthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\fullhealthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FullHealthPickUp.cs",
+              "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\FullHealthPickUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FullHealthPickUp.cs",
+              "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\FullHealthPickUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FullHealthPickUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T17:17:47.377Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,14 +57,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPickup.cs",
               "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\HealthPickup.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthPickup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-29T09:56:50.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CameraHandle.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\CameraHandle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraHandle.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ParallaxBG.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\ParallaxBG.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxBG.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerManager.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\PlayerManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerManager.cs",
@@ -79,21 +96,19 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerManager.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAAAHYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T08:33:41.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T08:33:41.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerHealthManager.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\PlayerHealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealthManager.cs",
               "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\PlayerHealthManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealthManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T08:02:41.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T08:02:41.266Z"
             }
           ]
         }

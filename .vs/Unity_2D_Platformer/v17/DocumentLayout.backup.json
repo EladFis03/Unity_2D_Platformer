@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\fullhealthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fullhealthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\healthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\camerahandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\camerahandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerahandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\parallaxbg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\parallaxbg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallaxbg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FullHealthPickUp.cs",
+              "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\FullHealthPickUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FullHealthPickUp.cs",
+              "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\FullHealthPickUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FullHealthPickUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T17:17:47.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HealthPickup.cs",
+              "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\HealthPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPickup.cs",
+              "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\HealthPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthPickup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T09:56:50.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CameraHandle.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\CameraHandle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraHandle.cs",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraHandle.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T09:13:34.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T09:13:34.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ParallaxBG.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\ParallaxBG.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxBG.cs",
@@ -51,8 +84,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ParallaxBG.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowCMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T09:09:46.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T09:09:46.705Z"
             },
             {
               "$type": "Document",
@@ -64,21 +96,19 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerManager.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAAAHYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T08:33:41.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T08:33:41.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerHealthManager.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\PlayerHealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealthManager.cs",
               "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\PlayerHealthManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealthManager.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA5wDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T08:02:41.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T08:02:41.266Z"
             }
           ]
         }
