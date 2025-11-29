@@ -3,6 +3,8 @@ using UnityEngine;
 public class ParallaxBG : MonoBehaviour
 {
 
+    public static ParallaxBG instance; // Singleton instance of ParallaxBG
+
     private Transform theCam;
     public Transform sky, treeLine;
 
@@ -10,6 +12,11 @@ public class ParallaxBG : MonoBehaviour
     public float parallaxSpeed = 0.5f; // Speed of the parallax effect
     // the lower the value, the farther the background will be from the camera
     // the higher the value, the closer the background will be to the camera
+
+    private void Awake()
+    {
+        instance = this; // Assign the singleton instance to this object
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,8 +33,13 @@ public class ParallaxBG : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        // MoveBackGround();
+    }
+
+    public void MoveBackGround()
+    {
         // Update the position of the sky based on the camera's position
-        sky.position = new Vector3(theCam.position.x , theCam.position.y , sky.position.z);
+        sky.position = new Vector3(theCam.position.x, theCam.position.y, sky.position.z);
         // Update the position of the treeLine based on the camera's position and the parallax speed
         treeLine.position = new Vector3(
             theCam.position.x * parallaxSpeed,

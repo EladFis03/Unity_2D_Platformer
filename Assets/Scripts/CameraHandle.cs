@@ -36,6 +36,10 @@ public class CameraHandle : MonoBehaviour
         handleFreezeCamera();
 
         stableCameraPosition();
+
+        if(ParallaxBG.instance != null) // Checking if there is a ParallaxBG instance in the scene
+            // in levels of a single area (like a special level without parallax background) there might not be one 
+            ParallaxBG.instance.MoveBackGround(); // Moving the background according to the camera position
     }
 
     void setCameraPosition(float x, float y, float z)

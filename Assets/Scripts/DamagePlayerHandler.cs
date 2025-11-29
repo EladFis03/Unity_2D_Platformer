@@ -24,7 +24,7 @@ public class DamagePlayerHandler : MonoBehaviour
             // other.gameObject.SetActive(false);
 
             // Call the DecreaseHealth method on the player object
-            PlayerHealthManager.instance.DecreaseHealth();
+            PlayerHealthManager.Instnace.DecreaseHealth();
         }
     }
 }

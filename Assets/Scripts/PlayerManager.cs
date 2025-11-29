@@ -1,20 +1,27 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerManager : MonoBehaviour
 {
+    // Movement variables
     public float movementSpeed = 5.0f;
     public Rigidbody2D m_RigidBody;
     public float jumpForce = 22f;
     public float sprintSpeed = 2.5f;
     private float currentSpeed = 0f;
+    // Ground check variables
     private bool m_isGrounded;
     public Transform groundCheckPoint; // the position to check from if we are on ground
     public float groundCheckRadius; // radius from the point to check if we are on ground
     public LayerMask whatIsGround; // Setting the layers that will be ground
+    // Double jump variables
     private bool m_canDoubleJump;
     private bool m_inDoubleJump;
 
     public Animator m_anim;
+
+    // Knockback variables
+    public float m_knockBackLength, m_knockBackSpeed;
+    private float m_knockBackCounter;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,9 +33,26 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MovingPlayer();
-        directionHandle();
-        animationHandle();
+        checkIfGrounded();
+        if (m_knockBackCounter <= 0)
+        {
+            MovingPlayer();
+            directionHandle();
+        }
+        else
+        {
+            knockingBackHandle();
+        }
+            animationHandle();
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /* knockingBackHandle - handling the knockback timer */
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    void knockingBackHandle()
+    {
+        m_knockBackCounter -= Time.deltaTime;
+
+        m_RigidBody.linearVelocity = new Vector2(-transform.localScale.x * m_knockBackSpeed, m_RigidBody.linearVelocityY);
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -37,8 +61,6 @@ public class PlayerMovement : MonoBehaviour
     void MovingPlayer()
     {
         currentSpeed = movementSpeed;
-
-        checkIfGrounded();
 
         sprint();
 
@@ -129,5 +151,14 @@ public class PlayerMovement : MonoBehaviour
     {
         m_RigidBody.linearVelocity = new Vector2(m_RigidBody.linearVelocityX, jumpForce);
     }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /* KnockBack - applying knockback to the player */
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void KnockBack()
+    {
+        m_RigidBody.linearVelocity = new Vector2(0f, jumpForce * 0.5f);
+        m_anim.SetTrigger("isKnockingBack");
 
+        m_knockBackCounter = m_knockBackLength; // start the knockback counter
+    }
 }
