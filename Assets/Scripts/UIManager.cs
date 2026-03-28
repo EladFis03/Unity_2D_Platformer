@@ -1,12 +1,18 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance; // Singleton instance of UIManager
+
     public Image[] heartIcons; // Array of heart icons to represent player health
+
     public Sprite fullHeart; // Sprite for full heart icon
+
     public Sprite emptyHeart; // Sprite for empty heart icon
+
+    public TMP_Text livesText; // TextMeshPro text to display the number of lives
 
     private void Awake()
     {
@@ -61,5 +67,10 @@ public class UIManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void UpdateLivesDisplay(int currentLives)
+    {
+        livesText.text = currentLives.ToString(); // Update the lives text to display the current number of lives
     }
 }

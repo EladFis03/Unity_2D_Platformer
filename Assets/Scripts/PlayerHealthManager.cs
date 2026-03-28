@@ -92,10 +92,11 @@ public class PlayerHealthManager : MonoBehaviour
             {
                 currentHealth = 0;
                 // Handle player death here (e.g., trigger game over, respawn, etc.)
-                Debug.Log("Player is dead!");
-                gameObject.SetActive(false); // Deactivate the player object
-                                             // This is for now, until we add checkpoints and respawn logic
-                                             //TODO: Add player death handling logic here
+                //gameObject.SetActive(false); // Deactivate the player object
+                //                             // This is for now, until we add checkpoints and respawn logic
+                //                             //TODO: Add player death handling logic here
+
+                LifeController.instance.Respawn(); // Call the Respawn method in the LifeController to handle player respawn
             }
             else
             {
