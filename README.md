@@ -1,8 +1,8 @@
 # Unity 2D Frog Platformer
 
 ## About
-This is a game developed by me, Elad Fisher. <br>
-As part of my learning process in Unity, I've taken a course on Udemy online class. <br> 
+This game is developed by me. <br>
+As part of my learning process in Unity, I've taken an online course on Udemy. <br> 
 
 ## Game Mechanics
 In this game, you play as Froppy the frog. <br>
@@ -15,6 +15,5 @@ Link to the game: <br>
 (once the game is published)
 
 ## Credits:
-The game is made by me, with the guidance of **James Doyle** in the course: <br>
-**Game development made easy. Learn C# with Unity and create your very own 2D Platformer!**
+The game is made by me, with the guidance of **James Doyle** in his course in Udemy: <br>
 
