@@ -12,6 +12,9 @@ public class LifeController : MonoBehaviour
 
     public int m_lives = 3; // Variable to track the number of lives the player has, initialized to 3
 
+
+    public GameObject deathEffect, respawnEffect; // GameObjects for visual effects when the player dies and respawns
+
     private void Awake()
     {
         // Implementing the Singleton pattern to ensure only one instance of LifeController exists
@@ -25,6 +28,11 @@ public class LifeController : MonoBehaviour
     void Start()
     {
         m_thePlayer = FindFirstObjectByType<PlayerManager>(); // Find the PlayerManager in the scene to manage player lives
+
+        if (UIManager.instance != null)
+        {
+            UIManager.instance.UpdateLivesDisplay(m_lives); // Update the UI to reflect the current number of lives after respawning
+        }
     }
 
     // Update is called once per frame
@@ -52,9 +60,15 @@ public class LifeController : MonoBehaviour
         else
         {
             m_lives = 0; // Ensure that lives do not go below 0
+            StartCoroutine(GameOverCoroutine());
         }
 
-        UIManager.instance.UpdateLivesDisplay(m_lives); // Update the UI to reflect the current number of lives after respawning
+        if (UIManager.instance != null)
+        {
+            UIManager.instance.UpdateLivesDisplay(m_lives); // Update the UI to reflect the current number of lives after respawning
+        }
+
+        Instantiate(deathEffect, m_thePlayer.transform.position, Quaternion.identity); // Instantiate the death effect at the player's position when they die
     }
 
     public IEnumerator RespawnCoroutine()
@@ -66,5 +80,17 @@ public class LifeController : MonoBehaviour
         PlayerHealthManager.Instnace.IncreaseHealth(PlayerHealthManager.Instnace.GetMaxHealth());
 
         m_thePlayer.gameObject.SetActive(true);
+
+        Instantiate(respawnEffect, m_thePlayer.transform.position, Quaternion.identity); // Instantiate the respawn effect at the player's position when they respawn
+    }
+
+    public IEnumerator GameOverCoroutine()
+    {
+        yield return new WaitForSeconds(m_respawnDelay);
+
+        if (UIManager.instance != null)
+        {
+            UIManager.instance.ShowGameOverScreen();
+        }
     }
 }

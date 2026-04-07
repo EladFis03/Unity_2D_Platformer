@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class UIManager : MonoBehaviour
     public Sprite emptyHeart; // Sprite for empty heart icon
 
     public TMP_Text livesText; // TextMeshPro text to display the number of lives
+
+    public GameObject gameOverScreen; // GameObject for the game over screen
 
     private void Awake()
     {
@@ -72,5 +75,15 @@ public class UIManager : MonoBehaviour
     public void UpdateLivesDisplay(int currentLives)
     {
         livesText.text = currentLives.ToString(); // Update the lives text to display the current number of lives
+    }
+
+    public void ShowGameOverScreen()
+    {
+        gameOverScreen.SetActive(true); // Activate the game over screen when the player runs out of lives
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\lifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwEkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T14:20:41.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LifeController.cs",
+              "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\LifeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LifeController.cs",
+              "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\LifeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LifeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T11:51:13.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "KillPlayer.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\KillPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\KillPlayer.cs",
@@ -62,20 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LifeController.cs",
-              "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\LifeController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LifeController.cs",
-              "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\LifeController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LifeController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC8AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T11:51:13.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerHealthManager.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\PlayerHealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealthManager.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CheckpointManager.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\CheckpointManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CheckpointManager.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Checkpoint.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\Checkpoint.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Checkpoint.cs",
@@ -111,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FullHealthPickUp.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\FullHealthPickUp.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FullHealthPickUp.cs",
@@ -123,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HealthPickup.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\HealthPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthPickup.cs",
@@ -135,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CameraHandle.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\CameraHandle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraHandle.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ParallaxBG.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\ParallaxBG.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxBG.cs",

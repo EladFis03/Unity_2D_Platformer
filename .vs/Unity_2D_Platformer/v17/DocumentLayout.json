@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\lifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\lifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\killplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\killplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|c:\\users\\tkgs4\\desktop\\git\\projects\\unity_2d_platformer\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\killplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\killplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FD9BE57-6AAC-A9F7-81EF-6F717F50C4F6}|Assembly-CSharp.csproj|C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\assets\\scripts\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,32 +50,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
               "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwEcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T14:20:41.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KillPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\KillPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\KillPlayer.cs",
-              "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\KillPlayer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\KillPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T13:55:35.685Z",
               "EditorCaption": ""
             },
             {
@@ -86,10 +73,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\LifeController.cs",
               "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\LifeController.cs",
               "RelativeToolTip": "Assets\\Scripts\\LifeController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDgAAACAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEYAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T11:51:13.995Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KillPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\KillPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KillPlayer.cs",
+              "ToolTip": "C:\\Users\\tkgs4\\Desktop\\Git\\Projects\\Unity_2D_Platformer\\Assets\\Scripts\\KillPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KillPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T13:55:35.685Z"
             },
             {
               "$type": "Document",
